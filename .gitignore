@@ -21,6 +21,4 @@ Thumbs.db
 *.log
 
 # code files
-src/__pycache__/
-src/*.pyc
-src/*.pyo
+src/
