@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+ecoguardian-env/
+
+# Models
+models/*.joblib
+models/*.keras
+
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# code files
+src/__pycache__/
+src/*.pyc
+src/*.pyo

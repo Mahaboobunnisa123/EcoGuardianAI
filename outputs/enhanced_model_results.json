@@ -1,0 +1,94 @@
+{
+  "model_type": "Optimized RandomForestClassifier",
+  "accuracy": 0.755,
+  "best_parameters": {
+    "class_weight": "balanced",
+    "max_depth": 20,
+    "max_features": "sqrt",
+    "min_samples_leaf": 2,
+    "min_samples_split": 2,
+    "n_estimators": 500
+  },
+  "selected_features": [
+    "ph",
+    "turbidity_ntu",
+    "flow_rate_cfs",
+    "temp_deviation",
+    "ph_deviation",
+    "ph_extreme",
+    "ph_squared",
+    "turbidity_log",
+    "turbidity_high",
+    "turbidity_sqrt",
+    "flow_stagnant",
+    "flow_log",
+    "turbidity_oxygen_ratio",
+    "flow_turbidity_ratio",
+    "environmental_stress_index"
+  ],
+  "feature_importance": [
+    {
+      "feature": "turbidity_oxygen_ratio",
+      "importance": 0.10847440924871482
+    },
+    {
+      "feature": "turbidity_ntu",
+      "importance": 0.09930948371451259
+    },
+    {
+      "feature": "turbidity_sqrt",
+      "importance": 0.0938529139750427
+    },
+    {
+      "feature": "environmental_stress_index",
+      "importance": 0.09214270378549183
+    },
+    {
+      "feature": "turbidity_log",
+      "importance": 0.09152624599412597
+    },
+    {
+      "feature": "temp_deviation",
+      "importance": 0.09080309141570551
+    },
+    {
+      "feature": "flow_turbidity_ratio",
+      "importance": 0.08618233084373245
+    },
+    {
+      "feature": "ph_squared",
+      "importance": 0.06633726541230774
+    },
+    {
+      "feature": "ph_deviation",
+      "importance": 0.06469685159210409
+    },
+    {
+      "feature": "ph",
+      "importance": 0.06441053568865004
+    },
+    {
+      "feature": "flow_log",
+      "importance": 0.06172953209737962
+    },
+    {
+      "feature": "flow_rate_cfs",
+      "importance": 0.05620480417905499
+    },
+    {
+      "feature": "turbidity_high",
+      "importance": 0.01802175776946247
+    },
+    {
+      "feature": "ph_extreme",
+      "importance": 0.003665128232483095
+    },
+    {
+      "feature": "flow_stagnant",
+      "importance": 0.002642946051232016
+    }
+  ],
+  "training_timestamp": "2025-09-01T11:40:51.304651",
+  "total_features_created": 22,
+  "features_selected": 15
+}

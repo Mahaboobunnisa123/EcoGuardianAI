@@ -1,0 +1,22 @@
+# === Core Data Science & ML (Python 3.13 Compatible) ===
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+
+# === TensorFlow & Computer Vision ===
+tensorflow==2.16.1
+opencv-python==4.9.0.80
+Pillow==10.3.0
+
+# === Data Visualization ===
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# === EPA Data Retrieval ===
+dataretrieval==0.1.7
+
+# === Utilities & Development ===
+tqdm==4.66.4
+jupyterlab==4.2.0
+pytest==8.2.1
+black==24.4.2
